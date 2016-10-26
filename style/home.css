@@ -102,6 +102,10 @@
   transition-duration: 1.5s;
 }
 
+span.text-content a {
+  color: black;
+}
+
 span.text-content span {
   display: table-cell;
   text-align: center;
@@ -135,10 +139,9 @@ span.text-content span:hover {
   transition-duration: 1s;
 }
 
-span.text-content span #arrow-icon img {
+/*span.text-content span #arrow-icon img {
    display: flex;
     opacity: 0;
-    background-image: url('../img/img content/arrow_up-right-512.png');
     height: 50px;
     width: 60px;
     transition-duration: 1s;
@@ -147,8 +150,7 @@ span.text-content span #arrow-icon img {
  span.text-content span:hover #arrow-icon img {
    transition-duration: 1s;
    opacity: 1;
-   background-image: url('../img/img content/arrow_up-right-512.png');
-}
+}*/
 
 
 @media only screen and (min-width : 764px) {
