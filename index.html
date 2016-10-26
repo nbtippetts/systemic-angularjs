@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="systemic">
+  <head>
+    <meta charset="utf-8">
+    <title>ThePlan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="./mainstyle.css" media="screen"/>
+    <link rel="stylesheet" href="./style/home.css" media="screen"/>
+  </head>
+  <body>
+
+
+  <section class="main-container">
+     <div id="logo">
+       <img src="../img/the plan logo.png" alt="" class="center-block img-responsive" heigth="170px" width="200px"/>
+     </div>
+
+     <div class="navbar">
+       <div class="container">
+         <ul class="nav nav-justified" role="tablist">
+           <li><a ui-sref="home">HOME.</a></li>
+           <li><a ui-sref="academy">THE ACADEMY.</a></li>
+           <li><a ui-sref="socialEvent">THE SOCIAL EVENT.</a></li>
+           <li><a ui-sref="corporateEvent">THE CORPORATE EVENT.</a></li>
+           <li><a ui-sref="team">THE TEAM.</a></li>
+           <li><a ui-sref="blog">BLOG.</a></li>
+
+           <a href="https://www.facebook.com/The-Plan-1116937918344703/"><img src="../img/img content/facebook.png" class="img-responsive" alt="facebook Icon" height="40px" width="40px"/></a>
+           <a href="https://www.instagram.com/theplan.event/"><img src="../img/img content/instagram.png" class="img-responsive" alt="instagram Icon" height="40px" width="40px"/></a>
+           <a href="https://twitter.com/theplanevent"><img src="../img/img content/twitter.png" class="img-responsive" alt="twitter Icon" height="40px" width="40px"/></a>
+           <a href="https://www.pinterest.com/theplanevent/"><img src="../img/img content/pinterest.png" class="img-responsive" alt="pinterest Icon" height="40px" width="40px"/></a>
+           <!-- <img src="" alt="youtube Icon" height="40px" width="40px" /> -->
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+    <ui-view></ui-view>
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+ 			 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.2.0/ui-bootstrap-tpls.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1"></script>
+       <script src="./js/app.js"></script>
+       <script src="./js/service.js"></script>
+       <script src="./js/controller/homeCtrl.js"></script>
+  </body>
+</html>
