@@ -49,6 +49,99 @@ html, body {
     justify-content: space-between;
 }
 
+#footer {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#footer ul.social {
+  float: left;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: solid #909090;
+    border-width: 0 1px;
+    padding: 12px 0 10px 15px;
+    margin: 0 12px 0 0;
+}
+
+#footer ul.social li {
+  display: inline-block;
+  margin: 0 16px 0 0;
+  list-style: none;
+}
+
+
+#footer ul.social li a {
+    display: inline-block;
+    margin: 0 16px 0 0;
+    list-style: none;
+    color: black;
+}
+
+#footer ul.social li a img{
+    display: inline-block;
+    margin: 0 16px 0 0;
+    list-style: none;
+}
+
+#footer p {
+  display: flex;
+  justify-content: center;
+  border: solid #909090;
+  border-width: 0 1px;
+  line-height: 38px;
+  padding: 0 20px 0 25px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #625e5b;
+  margin: 0;
+}
+
+#footer p a {
+    color: #625e5b;
+    text-decoration: none;
+    margin: 0 6px 0 0;
+    font-size: 15px;
+    -webkit-text-size-adjust: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#footer .copy {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  clear: both;
+  padding: 72px 0 40px;
+}
+
+#footer .copy p {
+    border: none;
+    text-align: center;
+    width: auto;
+    float: none;
+}
+
+#footer p a {
+    color: #625e5b;
+    text-decoration: none;
+    margin: 0 6px 0 0;
+    font-size: 10px !important;
+    -webkit-text-size-adjust: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 
    /* Small Devices, Tablets */
    @media only screen and (min-width : 768px) {
