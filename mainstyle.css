@@ -53,6 +53,7 @@ html, body {
     width: 100%;
     overflow: hidden;
     padding-top: 30px;
+    margin: 0 auto;
 }
 
 .content {
@@ -62,15 +63,11 @@ html, body {
 }
 
 #footer ul.social {
-  float: left;
     display: flex;
     justify-content: space-around;
     letter-spacing: 1px;
     text-transform: uppercase;
-    border: solid #909090;
-    border-width: 0 1px;
     padding: 12px 0 10px 15px;
-    margin: 0 12px 0 0;
 }
 
 #footer ul.social li {
